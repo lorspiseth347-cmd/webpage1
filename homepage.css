@@ -1,0 +1,87 @@
+.card{
+    width: 100%;
+}
+/* @media (min-width:1281px){
+   
+    
+      
+    } */
+
+@media (max-width:768px){
+     .movie-img3,.movie-img2{
+     display: none;
+}
+}
+@media (max-width:992px){
+   .movie-img3{
+    display: none;
+   }
+}
+
+ .card:hover{
+    scale: 1.03;
+ }
+
+  
+body{
+    background:#111;
+}
+
+.carousel-item{
+    padding:40px 0 60px;
+   
+}
+
+.movie-img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:3px;
+}
+.carousel-indicators [data-bs-target]{
+    
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#fff;
+    opacity:.5;
+}
+
+.carousel-indicators .active{
+    width:45px;
+    border-radius:20px;
+    opacity:1;
+}
+.movie-img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.movie-img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+@media (max-width:768px){
+    .movie-img{
+        height:220px;
+    }
+}
+
+     /* Show dropdown on hover */
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+
+        /* Optional: smooth transition */
+        .dropdown-menu {
+            transition: all 0.3s ease;
+        }
+        .menu:hover{
+            text-decoration: underline;
+            color: yellow;
+        }

@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top shadow">
+      <div class="container">
+        <a href="" class="navbar-brand fw-bold fs-3 text-white">
+          <i class="bi bi-film"></i> Movie24
+        </a>
+        <!-- phone version -->
+        <button
+          class="navbar-toggler bg-warning"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#show"
+        >
+          <span class="navbar-toggler-icon bg-warning"></span>
+        </button>
+
+        <!-- menubar -->
+        <div class="collapse navbar-collapse" id="show">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="menu text-light nav-link active" href="homepage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="menu text-light nav-link" href="newmovie.html">New Movie</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu text-light nav-link" href="bought.html">Bought</a>
+            </li>
+            <li class="nav-item dropdown">
+                    <a class="menu nav-link dropdown-toggle text-white"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown">
+                        Type
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                        <li><a class="dropdown-item" href="#">Advanture</a></li>
+                        <li><a class="dropdown-item" href="#">Crime</a></li>
+                        <li><a class="dropdown-item" href="#">Horror</a></li>
+                        <li><a class="dropdown-item" href="#">War</a></li>
+                    </ul>
+                </li>
+          </ul>
+          <!-- search from -->
+          <form class="d-flex mt-1">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search movie"
+            />
+            <button class="btn btn-success ms-2">Search</button>
+
+            <!-- Profile -->
+            <button class="btn btn-warning ms-2">
+              <i class="bi bi-person-fill fs-5"></i>
+            </button>
+            <!-- Button trigger modal -->
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="a row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-2-3-scaled.jpg"
+              class="movie-img1 movie-img"
+            />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_backdrop-3-3-scaled.jpg"
+              class="movie-img2 movie-img"
+            />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-5-scaled.jpg"
+              class="movie-img3 movie-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="b row g-4 px-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-4-3.jpg"
+              class="movie-img4 movie-img"
+            />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/04/resized_w780_backdrop2-1-scaled.jpg"
+              class="movie-img5 movie-img"
+            />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/05/resized_w780_Backdrop3.jpg"
+              class="movie-img6 movie-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-2 bg-warning"><h3 class="fw-bold">All movies</h3></div>
+
+    <main class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-2-3-scaled.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">If We Were Lucky</h5>
+              <a href="movie1.html" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/04/backdrop-1-3.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">My love 2021</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/6IfdkHqpvv0t2I1FMY9tI876ej.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">More tha blue</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/backdrop-3-3-scaled.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Howl’s Moving Castle</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/qu27OPbaIO9OBj3zd4h9bdS6e58.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">18×2 Beyond Youthful Days</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/5Onv8QqqugsKSACka3eQnKHbOeO.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Hello, Love, Again</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/05/resized_w780_Backdrop3.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Tokyo revenger</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/07/resized_w780_c43528fe-6953-4ad5-9270-bbd514bd43e0.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Dead to Rights</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/07/resized_w780_0fccf823-7fcb-4fc1-93a7-67c9144936ef.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Scare Out</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-4-3.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">May the Devil Take You Too</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-2-2-scaled.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">The Wandering Earth II</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-4-2-scaled.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">1987: When the Day Comes</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/resized_w780_Backdrop-2-3-scaled.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">If We Were Lucky</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/04/backdrop-1-3.jpg"
+              height="114px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">My love 2021</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/6IfdkHqpvv0t2I1FMY9tI876ej.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">More tha blue</h5>
+              <br />
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://khdiamond.net/wp-content/uploads/2026/06/backdrop-3-3-scaled.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Howl’s Moving Castle</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/qu27OPbaIO9OBj3zd4h9bdS6e58.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">18×2 Beyond Youthful Days</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-3">
+          <div class="card bg-dark">
+            <img
+              src="https://image.tmdb.org/t/p/w300/5Onv8QqqugsKSACka3eQnKHbOeO.jpg"
+              class="card-img-top"
+              height="114px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-white">Hello, Love, Again</h5>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">About Website</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">Schedule Post</a>
+        </li>
+        <li class="nav-item">
+          <a href="setmoney.html" class="nav-link px-2 text-white">Set Up Money</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-white">About</a>
+        </li>
+      </ul>
+      <p class="text-center text-white "><a class="navbar-brand text-warning fs-1 fw-bold" href=""> <i class="bi bi-film"></i> Movie24</a></p>
+    </footer>
+    <!-- <footer>
+      <hr />
+      <div class="page1 p-5">
+        <a
+          href="homepage.html"
+          class="navbar-brand p-4 fw-bold fs-3 text-white"
+        >
+          <i class="bi bi-film p-2"></i> Movie24
+        </a>
+      </div>
+      <div class="page2">
+        <a href="">About Website</a>|
+        <a href="">Schedule Post</a>|
+        <a href="">Set Up Money</a>|
+        <a href="">Somethings</a>
+      </div>
+    
+    </footer> -->
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
